@@ -7,7 +7,7 @@ userInputName.addEventListener("submit", function(event){
     const yourName = String(userName.value);
 
     if (yourName.match("")){
-        console.log("work");
+        
         userInputError.innerHTML=
         `
         <div class="justify-between flex px-2 py-2 rounded-lg border-red-200 border-2 mx-6 bg-red-100">
