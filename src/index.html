@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+   
+    <title>Document</title>
+</head>
+
+<body class="w-96 mx-auto text-center">
+    <br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo" class="w-12 h-12 mx-auto">
+    <br>
+    
+    <h3 class="text-2xl">Sign in to GitHub</h3>
+    <br>
+    <div id="warning"></div>
+    <br>
+    <form id="user-input">
+        <div class=" py-2 rounded-lg border-2 border-gray-200 bg-slate-50 mx-6">
+            <label class="justify-left mr-24 ">Username or email address</label>
+            <br>
+            <input id="name" type="text" class=" rounded py-1 pr-28 my-2.5 border-solid border-2 border-gray-200">
+            <br>
+            <label class=" justify-left mr-20">Password</label>
+            <a href="https://github.com/password_reset" class="no-underline hover:underline text-blue-500">Forgot password?</a>
+            <br>
+            <input id="password" type="text" class="rounded py-1 pr-28 my-2.5 border-solid border-2 border-gray-200">
+            <br>
+            <button  type="submit" class="bg-green-500 text-white py-2.5 px-32 mx-2 my-2 rounded-lg">Sign in</button>
+            <br>
+        </div>
+    </form>
+   
+    <br>
+    <div class=" px-2 py-2 rounded-lg border-gray-200 border-2 mx-6">
+        <ul class="flex justify-center"> 
+            <li><label>New to GitHub?</label></li>
+            <li><a href="https://github.com/signup?source=login" class="no-underline hover:underline text-blue-500">Create an account.</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <ul class="flex list-none justify-center m-auto px-4 w-96 no-underline text-sm text-blue-500 indent-5 ">
+        <li><a class="hover:underline" href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a></li>
+        <li><a class="hover:underline" href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Pravacy</a></li>
+        <li><a class="hover:underline" href="https://github.com/security">Security</a></li>
+        <li><a class="text-black hover:underline hover:text-blue-500" href="https://support.github.com/?tags=dotcom-direct">Contact GitHub</a></li>
+    </ul>
+    <br>
+    
+    <script src="/src/script.js"></script>
+</body>
+</html>
